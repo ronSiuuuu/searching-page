@@ -1,0 +1,43 @@
+         .form{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            gap: 5px;
+
+         }
+         .search-container{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+           
+            
+         }
+         
+         .search-button{
+            padding: 5px 10px; 
+            font-size: 14px; }
+ 
+            .search-container input[type="text"] {
+                margin-right: 10px; /* Add some space between the text input and the button */
+              }
+              
+        
+         body{
+            background-color: brown;
+         }
+         .content{
+            background-color: white;
+            border: 5px solid white;
+            box-shadow: 5px 5px 5px black;
+            width: 40%;
+            margin: 5px auto;
+            padding : 10px
+            
+         }
+         #comment {
+            width: 300px;
+           
+         }
+         .submit{
+            width: 50px;
+         }
